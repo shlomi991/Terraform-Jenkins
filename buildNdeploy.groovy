@@ -25,7 +25,7 @@ pipeline {
 
       stage('Checkout code') {
         steps {
-          git branch: env.branch, credentialsId: '45146593-c75f-4562-9d18-8dcd58aaa713', url: "git@github.com:shlomi991/mysite.git"
+          git branch: env.branch, credentialsId: '45146593-c75f-4562-9d18-8dcd58aaa713', url: "git@github.com:shlomi991/Terraform-Jenkins.git" //Demo
         }
       }
 
