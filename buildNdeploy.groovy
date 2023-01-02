@@ -14,7 +14,6 @@ pipeline {
     
     environment 
     {
-        SVC_ACCOUNT_KEY = credentials('terraform-auth')
         USER_DOCKER = "shlomi99"
         RELEASE_NAME = "commit"
         PROJECT_ID="shlomi-interview"
