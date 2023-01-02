@@ -52,7 +52,7 @@ pipeline {
         steps {
           dir("terraform")  {
               sh  '''
-                    gcloud config set project PROJECT_ID
+                    gcloud config set project ${PROJECT_ID}
                     terraform init
                     terraform apply -auto-approve -no-color -var="image=${IMAGE_REPOSITORY}:${IMAGE_TAG}"
                   '''
