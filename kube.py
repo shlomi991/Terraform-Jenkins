@@ -1,6 +1,6 @@
 from kubernetes import client, config
 from flask import Flask
-import time
+
 
 app = Flask(__name__)
 
