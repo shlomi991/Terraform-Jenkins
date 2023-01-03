@@ -22,6 +22,6 @@ variable "service_annotations" {
   type        = map(string)
   description = "Annotations to the service. Acceptable values all, internal, internal-and-cloud-load-balancing"
   default = {
-    "run.googleapis.com/ingress" = "iternal"
+    "run.googleapis.com/ingress" = "internal"
   }
 }
